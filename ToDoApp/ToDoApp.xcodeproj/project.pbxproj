@@ -10,12 +10,14 @@
 		AC4E280F21838F8D00F8F454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E280E21838F8D00F8F454 /* AppDelegate.m */; };
 		AC4E281221838F8D00F8F454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E281121838F8D00F8F454 /* ViewController.m */; };
 		AC4E281521838F8D00F8F454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4E281321838F8D00F8F454 /* Main.storyboard */; };
-		AC4E281821838F8D00F8F454 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC4E281621838F8D00F8F454 /* ToDoApp.xcdatamodeld */; };
 		AC4E281A21838F8D00F8F454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4E281921838F8D00F8F454 /* Assets.xcassets */; };
 		AC4E281D21838F8D00F8F454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4E281B21838F8D00F8F454 /* LaunchScreen.storyboard */; };
 		AC4E282021838F8D00F8F454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E281F21838F8D00F8F454 /* main.m */; };
 		AC4E282A21838F8E00F8F454 /* ToDoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E282921838F8E00F8F454 /* ToDoAppTests.m */; };
 		AC4E283521838F8E00F8F454 /* ToDoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E283421838F8E00F8F454 /* ToDoAppUITests.m */; };
+		AC4E28452183B60300F8F454 /* ToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4E28432183B60300F8F454 /* ToDoTableViewCell.m */; };
+		AC4E28462183B60300F8F454 /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC4E28442183B60300F8F454 /* ToDoTableViewCell.xib */; };
+		ACA548A42183C2D500D048E0 /* ToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACA548A22183C2D500D048E0 /* ToDoApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +44,6 @@
 		AC4E281021838F8D00F8F454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AC4E281121838F8D00F8F454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC4E281421838F8D00F8F454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC4E281721838F8D00F8F454 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
 		AC4E281921838F8D00F8F454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC4E281C21838F8D00F8F454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC4E281E21838F8D00F8F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +54,10 @@
 		AC4E283021838F8E00F8F454 /* ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4E283421838F8E00F8F454 /* ToDoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoAppUITests.m; sourceTree = "<group>"; };
 		AC4E283621838F8E00F8F454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4E28422183B60300F8F454 /* ToDoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoTableViewCell.h; sourceTree = "<group>"; };
+		AC4E28432183B60300F8F454 /* ToDoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoTableViewCell.m; sourceTree = "<group>"; };
+		AC4E28442183B60300F8F454 /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
+		ACA548A32183C2D500D048E0 /* ToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +113,14 @@
 				AC4E281021838F8D00F8F454 /* ViewController.h */,
 				AC4E281121838F8D00F8F454 /* ViewController.m */,
 				AC4E281321838F8D00F8F454 /* Main.storyboard */,
+				AC4E28422183B60300F8F454 /* ToDoTableViewCell.h */,
+				AC4E28432183B60300F8F454 /* ToDoTableViewCell.m */,
+				AC4E28442183B60300F8F454 /* ToDoTableViewCell.xib */,
+				ACA548A22183C2D500D048E0 /* ToDoApp.xcdatamodeld */,
 				AC4E281921838F8D00F8F454 /* Assets.xcassets */,
 				AC4E281B21838F8D00F8F454 /* LaunchScreen.storyboard */,
 				AC4E281E21838F8D00F8F454 /* Info.plist */,
 				AC4E281F21838F8D00F8F454 /* main.m */,
-				AC4E281621838F8D00F8F454 /* ToDoApp.xcdatamodeld */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -241,6 +249,7 @@
 				AC4E281D21838F8D00F8F454 /* LaunchScreen.storyboard in Resources */,
 				AC4E281A21838F8D00F8F454 /* Assets.xcassets in Resources */,
 				AC4E281521838F8D00F8F454 /* Main.storyboard in Resources */,
+				AC4E28462183B60300F8F454 /* ToDoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA548A42183C2D500D048E0 /* ToDoApp.xcdatamodeld in Sources */,
+				AC4E28452183B60300F8F454 /* ToDoTableViewCell.m in Sources */,
 				AC4E281221838F8D00F8F454 /* ViewController.m in Sources */,
-				AC4E281821838F8D00F8F454 /* ToDoApp.xcdatamodeld in Sources */,
 				AC4E282021838F8D00F8F454 /* main.m in Sources */,
 				AC4E280F21838F8D00F8F454 /* AppDelegate.m in Sources */,
 			);
@@ -579,12 +589,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AC4E281621838F8D00F8F454 /* ToDoApp.xcdatamodeld */ = {
+		ACA548A22183C2D500D048E0 /* ToDoApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AC4E281721838F8D00F8F454 /* ToDoApp.xcdatamodel */,
+				ACA548A32183C2D500D048E0 /* ToDoApp.xcdatamodel */,
 			);
-			currentVersion = AC4E281721838F8D00F8F454 /* ToDoApp.xcdatamodel */;
+			currentVersion = ACA548A32183C2D500D048E0 /* ToDoApp.xcdatamodel */;
 			path = ToDoApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
